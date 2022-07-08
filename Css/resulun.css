@@ -1,0 +1,17 @@
+.image{
+    width: 200px;
+    height: 50px;
+}
+.arxafon{
+    background-image:url('../Image/foto1.jpg') ;
+    /* border-image:url(/PROYEKT/Image/158578486647410644_519b88b8-9440-49e7-a3ca-b56738a788e5.webp) ; */
+    /* background-image:url(/PROYEKT/Image/logo.png) ; */
+    /* border-image:url(/PROYEKT/Image/logo.png) ; */
+    
+    
+    background-repeat: no-repeat;
+    background-position: top right; 
+}
+.li1{
+    color: rgb(251, 149, 251)!important ;
+}
