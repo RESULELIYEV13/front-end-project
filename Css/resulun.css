@@ -8,21 +8,37 @@
     background-position: top right; 
 }
 .li1{
+    border-radius: 10px;
+    background: #000000;
+    border: 2px solid rgb(251, 149, 251);
     color: rgb(251, 149, 251)!important ;
 }
 .li2{
+    border-radius: 10px;
+    background: #000000;
+    border: 2px solid rgb(97, 199, 255);
     color: rgb(97, 199, 255)!important ;
 }
 .li3{
+    border-radius: 10px;
+    background: #000000;
+    border: 2px solid rgb(157, 255, 0);
     color: rgb(232, 255, 129)!important ;
 }
 .li4{
+    border-radius: 10px;
+    background: #000000;
+    border: 2px solid rgb(149, 251, 198);
     color: rgb(149, 251, 198)!important ;
 }
 .li5{
+    border-radius: 10px;
+    background: #000000;
+    border: 2px solid rgb(255, 193, 70);
     color: rgb(255, 193, 70)!important ;
 }
 .div1{
+    
     border: 2px solid rgb(236, 196, 144);
     border-radius: 20px;
     color: aliceblue;
@@ -30,4 +46,8 @@
 }
 .bg-purple{
     background: #450080!important;
+}
+.singbut{
+    color: aqua;
+    margin-top: 5px;
 }
