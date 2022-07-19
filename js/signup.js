@@ -1,16 +1,20 @@
 $(document).ready(function() {
-    const arr =[];
+    let arr =[];
+    if (localStorage.getItem('users') == null)
+        arr = [];
+    else
+        arr = JSON.parse(localStorage.getItem('users'));
 
-    $('#signup').submit(function(e){
+    $('#signup').submit(function(r){
         const myObj = {
             ad: $('#firstname').val(),
             telefon: $('#mobil').val(),
             isdifadeciAdi: $('#username').val(),
             sifre: $('#password').val()
         };
-        // mastivimiz var 1 dene icinde obyekler JSON sayesinde
+        
         arr.push(myObj);
-        console.log(arr);
+        
         let myJsontext = JSON.stringify(arr);
         localStorage.setItem('user',myJsontext);
     });
